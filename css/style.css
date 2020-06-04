@@ -1,6 +1,6 @@
 body{
-    background:  rgb(36, 35, 35);
-    color: #fff;
+    background:  RGB(255, 255, 255);
+    color: #FFFFFF;
     overflow: auto;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .needs-validation{
-    background: rgb(22, 22, 22);
+    /* background: rgb(128, 0, 0); */
     color: #fff;
     padding: 1rem;
     display: flex;

@@ -175,7 +175,17 @@ if (isset($_POST['search'])) {
                         <!--Table-->
                         <table id="table1" class="table table-bordered table-dark table-hover">
                             <!--Table head-->
-                            
+                            <thead>
+                                <tr>
+
+                                    <th>Nombre del producto</th>
+                                    <th>Precio del producto</th>
+                                    <th>Imagen Del Producto</th>
+                                    <th>Informacion del vendedor</th>
+
+
+                                </tr>
+                            </thead>
                             <!--Table head-->
                             <!--Table body-->
                             <tbody>
@@ -183,11 +193,16 @@ if (isset($_POST['search'])) {
                                     <tr>
                                         <!--<td style="text-align:center;"><button class="btn btn-danger btn-circle btn-xl" id="add" onclick="add();">+</button></td>-->
 
-                                        
-                                        
+                                        <td id="name" style="width: 30%"><?php echo $product['productname'] ?></td>
+                                        <td id="price" style="width: 20%"><?php echo $product['productprice'] ?></td>
                                         <td style="width: 20%"><img src="../serverimages/<?php echo $product['productimage'] ?>" style="width:30%;"></td>
                                         <td style="width: 20%">
-                                            <div><?php echo $product['productname'] ?><br><?php echo $product['productprice'] ?><br><?=$product["username"]?></div>
+                                            <div>Nombre:<?=$product["username"]?></div>
+                                            <div>Email: <?=$product["email"]?></div>
+                                            <div>Celular: <?=$product["celular"]?></div>
+                                            <div>Whatsapp: <?=$product["whatsapp"]?></div>
+                                            <div>Direccion: <?=$product["direccion"]?></div>
+                                            <div>Ciudad: <?=$product["ciudad"]?></div>
                                         </td>
 
 

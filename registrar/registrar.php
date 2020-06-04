@@ -87,7 +87,7 @@
                 <input type="text" name="ciudad" class="form-control" id="inputCiudad" placeholder="Ciudad" required>
                 <div class="invalid-feedback">por favor, digita  tu password para continuar.</div>
             </div>
-            <button style="margin-top:1rem;" type="submit" name="insert" class="btn btn-danger">registrar</button><br>
+            <button style="margin-top:1rem;" type="submit" name="insert"  class="btn btn-danger">registrar</button><br>
             <!--<a class="btn btn-danger btn-block" href="../publico/publico.php">BACK</a>-->
         </form>
     </div>
